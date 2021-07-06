@@ -6,6 +6,7 @@ public abstract class Аnimals {
     int swim;               // зверь плывет дистанцию
 
     public abstract void runrun();
+
     public abstract void swimswim();
-    }
+}
 

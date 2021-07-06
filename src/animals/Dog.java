@@ -1,12 +1,12 @@
 package animals;
 
 public class Dog extends Аnimals {
-    private static int numb;
+
     public Dog(String name, int run, int swim) {
         this.name = name;
         this.run = run;
         this.swim = swim;
-        numb++;
+
     }
 
     @Override
@@ -21,15 +21,13 @@ public class Dog extends Аnimals {
                     " метров, но " + name + " был очень воспитанным песилем");
         }
     }
-    public void swimswim(){
-        if(swim<=10) {
+
+    public void swimswim() {
+        if (swim <= 10) {
             System.out.println("Собака " + name + " проплыла: " + swim);
-        }
-        else{
+        } else {
             System.out.println("Да вы его утопить удумали?! Люди добрыя что ж делатся то, А? Собаке " + swim + " метров сказали плыть... КАРРРАУЛЛЛ УТОПЛЯЮТ!!!");
         }
     }
-    public static int counter() {
-        return numb;
-    }
+
 }
